@@ -9,7 +9,7 @@
   <h1>Cookie, nothing else</h1>
 
   <p>
-Chocolate Chip will always be KING!
+<h1>Chocolate Chip will always be KING! </h1>
 BROWNIES ARE SECOND PLACE
   </p>
 <img src="Cookie.jpg">
