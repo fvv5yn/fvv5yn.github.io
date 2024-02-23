@@ -10,6 +10,6 @@
   <p>
  Helooooooo, but just you wait!
   </p>
-  
+ <img src="images/Cookie.jpg" 
 </body>  
 </html>
