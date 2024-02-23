@@ -1,1 +1,11 @@
+h1 {
+  color: blue;
+  background-color: orange;
+  font-size: xx-large;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
