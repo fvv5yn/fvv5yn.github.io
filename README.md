@@ -1,7 +1,7 @@
 # Cookie
 <html>
 <head>
-  <title>My page devoted to my love of cookies</title>
+  <title>My page devoted to my love of cookies and a little bit of brownie slander</title>
 </head>
 <body>
 
@@ -9,6 +9,7 @@
 
   <p>
 Chocolate Chip will always be KING!
+BROWNIES ARE SECOND PLACE
   </p>
 <img src="Cookie.jpg">
 <a href="https://crumblcookies.com" target="_blank">MORE EVIDENCE OF COOKIES THAT ARE AWESOME</a>
