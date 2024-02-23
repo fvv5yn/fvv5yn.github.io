@@ -8,10 +8,9 @@
 <h1>Cookie, nothing else</h1>
 <p>
 <h1>Chocolate Chip will always be KING! BROWNIES ARE SECOND PLACE </h1>
-BROWNIES ARE SECOND PLACE
-  </p>
+</p>
 <img src="Cookie.jpg">
-<a href="https://crumblcookies.com" target="_blank">MORE EVIDENCE OF COOKIES THAT ARE AWESOME</a>
+<h1><a href="https://crumblcookies.com" target="_blank">MORE EVIDENCE OF COOKIES THAT ARE AWESOME</a></h1>
 
 </body>  
 </html>
