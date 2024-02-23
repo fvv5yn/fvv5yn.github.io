@@ -1,4 +1,4 @@
-# username.github.io
+# Cookie
 <html>
 <head>
   <title>My page devoted to my love of cookies</title>
