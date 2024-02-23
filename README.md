@@ -1,7 +1,8 @@
 # Cookie
 <html>
 <head>
-  <title>My page devoted to my love of cookies and a little bit of brownie slander</title>
+  <title>My page devoted to my love of cookies and a little bit of brownie slander</>
+    <link rel="stylesheet" href="/style.css" type="text/css">
 </head>
 <body>
 
