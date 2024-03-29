@@ -1,9 +1,9 @@
 var images = [
-    'images/Charmander.jpg',
-    'images/Charmeleon.jpg',
-    'images/Charizard.png',
-    'images/CharizardY.png',
-    'images/CharizardX.png'
+    'Charmander.jpg',
+    'Charmeleon.jpg',
+    'Charizard.png',
+    'CharizardY.png',
+    'CharizardX.png'
 ];
 
 var currentIndex = 0; 
