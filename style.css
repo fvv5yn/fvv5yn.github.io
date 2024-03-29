@@ -23,8 +23,8 @@ img {
     transition: opacity 0.5s ease-in-out;
     opacity: 1;
     height: 400px; /* Fixed height */
-    width: auto; /* Width adjusts to maintain aspect ratio */
-    object-fit: contain; /* Prevents image distortion */
+    width: 400px; /* Width adjusts to maintain aspect ratio */
+    object-fit: fill; /* Prevents image distortion */
     display: block;
     margin: auto;
 }
