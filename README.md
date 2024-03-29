@@ -1,11 +1,10 @@
 # fvv5yn.github.io
-# Cookie.hello
+# Cookie
 <html>
 <head>
   <title> Devoted To My Love of Cookies </title>
-    <link rel="stylesheet" href="/style.css" type="text/css">
 </head>
-<body>
+<body> <link rel="stylesheet" href="/style.css" type="text/css">
 
   <h1>Cookie, nothing else</h1>
 
