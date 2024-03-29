@@ -1,28 +1,30 @@
 h1 {
-  color: black;
-  background-color: brown;
-  font-size: xx-large;
+    color: black;
+    background-color: brown;
+    font-size: xx-large;
 }
+
 body {
-  font-family: Verdana, sans-serif;
-  margin-left: 10%;
-  margin-right: 10%;
-  img {
-  width: 50%;
-  height: auto;
+    font-family: Verdana, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
     background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-  #carouselImage {
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+#carouselImage {
     transition: opacity 0.5s ease-in-out;
-    opacity: 1; 
-    height: 400px; 
+    opacity: 1;
+    height: 400px;
     width: auto; 
     object-fit: contain;
     display: block;
     margin: auto;
 }
-}
-
