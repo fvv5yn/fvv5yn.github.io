@@ -11,5 +11,9 @@ body {
   width: 50%;
   height: auto;
 }
+  #carouselImage {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1; /* Start fully visible */
+}
 }
 
