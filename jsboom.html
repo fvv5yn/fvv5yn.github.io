@@ -1,6 +1,6 @@
 <html>
 <body>
-    <h1>Exploring the DOM</h1>
+    <h1>My first JavaScripted Website</h1>
 
     <h2>Count Down: <span id="count">20</span></h2>
     <button onclick="updateCount()">Next</button>
@@ -8,28 +8,33 @@
 
     <script>
         var i = 20;
-         var maxCount = 20;
+        var maxCount = 20;
 
         function updateCount() {
             i = i - 1;
-           var countobj = document.getElementById("count");
+            var countobj = document.getElementById("count");
             console.log("Updating object: " + countobj);
             if (i <= 0) {
                 i = 0;
-                countobj.innerHTTML + "<b>You expected something didn't you?</b>";
+                countobj.innerHTML = "<b>You expected something, didn't you?</b>"; // Fixed typo here
             } else {
-            countobj.innerHTML = "<b>" + i + "</b>";
-        }
+                countobj.innerHTML = "<b>" + i + "</b>";
+            }
             updateBackgroundColor(i);
         }
+
         function updateBackgroundColor(currentCount) {
             let redIntensity = 200 * (1 - currentCount / maxCount);
             redIntensity = Math.max(0, Math.min(255, redIntensity));
             redIntensity = Math.round(redIntensity);
-            document.body.style.backgroundColor = 'rgb(${redIntensity}, 0, 0)';
-       function setRainbowBackground() {
+            // Corrected the string interpolation method
+            document.body.style.backgroundColor = `rgb(${redIntensity}, 0, 0)`;
+        }
+
+        function setRainbowBackground() {
             document.body.style.backgroundImage = 'linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red)';
         }
     </script>
 </body>
 </html>
+
