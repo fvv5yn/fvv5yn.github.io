@@ -20,7 +20,7 @@ img {
 }
 
 #carouselImage {
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 2s ease-in-out;
     opacity: 1;
     height: 400px; /* Fixed height */
     width: 400px; /* Width adjusts to maintain aspect ratio */
