@@ -7,17 +7,16 @@ var images = [
 ];
 
 var currentIndex = 0; 
-
 var carouselImage = document.getElementById("cimage");
-carouselImage.style.opacity = 1; // 
+carouselImage.style.opacity = 1; 
 changeImage();
 
 function changeImage() {
-    carouselImage.style.opacity = 0; 
+    carouselImage.style.opacity = 0;
     setTimeout(() => {
         carouselImage.src = images[currentIndex];
         carouselImage.style.opacity = 1; 
-    }, 500); 
+    }, 2000); 
 }
 
 function showNextImage() {
