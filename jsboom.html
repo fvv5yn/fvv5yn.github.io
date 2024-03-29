@@ -12,6 +12,9 @@
             i = i - 1;
             countobj = document.getElementById("count");
             console.log("Updating object: " + countobj);
+            if (i == 0) {
+                countobj.innerHTTML + "<b>Boom!</b>";
+            } else {
             countobj.innerHTML = "<b>" + i + "</b>";
         }
     </script>
