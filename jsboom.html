@@ -28,7 +28,7 @@
             let redIntensity = 200 * (1 - currentCount / maxCount);
             redIntensity = Math.max(0, Math.min(255, redIntensity));
             redIntensity = Math.round(redIntensity);
-            // Corrected the string interpolation method
+         
             document.body.style.backgroundColor = `rgb(${redIntensity}, 0, 0)`;
         }
 
