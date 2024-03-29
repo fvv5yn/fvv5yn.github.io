@@ -4,6 +4,7 @@
 
     <h2>Count Down: <span id="count">20</span></h2>
     <button onclick="updateCount()">Next</button>
+    <button onclick="setRainbowBackground()">Rainbow Background</button>
 
     <script>
         var i = 20;
@@ -26,6 +27,9 @@
             redIntensity = Math.max(0, Math.min(255, redIntensity));
             redIntensity = Math.round(redIntensity);
             document.body.style.backgroundColor = 'rgb(${redIntensity}, 0, 0)';
+       function setRainbowBackground() {
+            // Set the background to a rainbow gradient
+            document.body.style.backgroundImage = 'linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red)';
         }
     </script>
 </body>
