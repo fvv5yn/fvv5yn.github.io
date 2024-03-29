@@ -1,7 +1,9 @@
 var images = [
-    'https://mysiteurl/image1.jpg',
-    'https://mysiteurl/image2.jpg',
-    'https://mysiteurl/image3.jpg' // Corrected the third URL to be unique
+img src="Charmander.jpg",
+ img src="Charmeleon.jpg"',
+  img src="Charizard.png"
+ img src="CharizardY.png"
+img src="CharizardX.png"
 ];
 
 var currentIndex = 0; // Start with the first image
