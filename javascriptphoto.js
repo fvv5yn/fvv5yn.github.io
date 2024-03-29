@@ -16,7 +16,7 @@ function changeImage() {
     carouselImage.style.opacity = 0; 
     setTimeout(() => {
         carouselImage.src = images[currentIndex];
-        carouselImage.style.opacity = 1; // Start fade-in
+        carouselImage.style.opacity = 1; 
     }, 500); 
 }
 
