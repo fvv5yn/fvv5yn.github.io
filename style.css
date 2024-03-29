@@ -8,7 +8,7 @@ body {
     font-family: Verdana, sans-serif;
     margin-left: 10%;
     margin-right: 10%;
-    background-image: url('background.jpg');
+    background-image: url('background.jpg'); /* Assuming this is the page background */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,9 +22,9 @@ img {
 #carouselImage {
     transition: opacity 0.5s ease-in-out;
     opacity: 1;
-    height: 400px;
-    width: auto; 
-    object-fit: contain;
+    height: 400px; /* Fixed height */
+    width: auto; /* Width adjusts to maintain aspect ratio */
+    object-fit: contain; /* Prevents image distortion */
     display: block;
     margin: auto;
 }
