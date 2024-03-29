@@ -8,7 +8,7 @@ body {
     font-family: Verdana, sans-serif;
     margin-left: 10%;
     margin-right: 10%;
-    background-image: url('background.jpg'); /* Assuming this is the page background */
+    background-image:'background.jpg'; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
